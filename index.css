@@ -1,4 +1,28 @@
 .img-grid{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+
+}
+
+.logo{
+    height: 45px;
+    width: 45px; 
+    display: block;
+
+}
+
+.emoji{
+    font-size: 40px;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    background-color: gray;
+    padding: .5em;
+}   
+
+body{
+    margin: 0;
 }
